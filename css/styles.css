@@ -452,6 +452,55 @@ body {
         text-transform: uppercase;
         color: tomato; }
 
+.log-in {
+  background: tomato;
+  background-image: url(../img/sky.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center; }
+  .log-in input {
+    width: 100%;
+    display: block;
+    margin: 0 auto 10px;
+    padding: 10px 10px; }
+  .log-in #submit {
+    background: #fff;
+    border: none;
+    width: 50%;
+    border-radius: 3px; }
+    .log-in #submit:hover {
+      background: lightblue;
+      transition: 0.3s ease all; }
+  .log-in h2 {
+    margin-bottom: 30px; }
+
 .container {
   max-width: 90%;
   margin-left: auto;

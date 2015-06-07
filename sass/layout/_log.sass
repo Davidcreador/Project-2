@@ -1,0 +1,31 @@
+.log-in
+  background: tomato
+  background-image: url(../img/sky.jpeg)
+  background-size: cover
+  background-repeat: no-repeat
+  width: 100vw
+  height: 100vh
+  text-align: center
+  @include display(flex)
+  @include align-items(center)
+  @include justify-content(center)
+
+  input
+    width: 100%
+    display: block
+    margin: 0 auto 10px
+    padding: 10px 10px
+
+  #submit
+    background: #fff
+    border: none
+    width: 50%
+    border-radius: 3px
+
+    &:hover
+      background: lightblue
+      transition: .3s ease all
+
+
+  h2
+    margin-bottom: 30px
